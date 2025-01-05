@@ -1,0 +1,128 @@
+/* task1 */
+/* .container .box>p{
+    padding: 20px;
+} */
+ /* .container>.box>p{
+    padding: 20px;
+ } */
+ /* .container>.box p{
+    padding: 20px;
+ } */
+ .container .box p{
+    padding: 20px;
+ }
+ /* task2 */
+ /* .section>.content p{
+     margin: 15px;
+ } */
+  .section>.content>p{
+    margin: 15px;
+  }
+  /* task3 */
+  /* .card-header+.card-body>p{
+    border: 2px solid red;
+  } */
+  .card-header+.card-body p{
+    border: 2px solid red;
+  } 
+
+  /* task4 */
+  .navbar ul .one{
+    background-color: blue;
+  }
+  .navbar ul .two{
+    background-color: blue;
+  }
+  .navbar ul .three{
+    background-color: blue;
+  }
+  /* task5 */
+  /* .header h1{
+    margin-top: 20px;
+    
+  } */
+  
+
+  /* task6 */
+  /* .footer span{
+    padding: 10px;
+  } */
+   /* .footer>span{
+    padding: 10px;
+   } */
+    /* p+span{
+        padding: 10px;
+    } */
+  p~span{
+    padding: 10px;
+  }
+
+  /* task7 */
+  /* .main-content>.content>p{
+    border: 1px solid black;
+    
+  } */
+   /* .main-content>.content p{
+    border: 1px solid black
+   } */
+   /* .main-content .content>p{
+    border: 1px solid black
+   } */
+   .main-content .content p{
+    border: 1px solid black
+   }
+
+
+   /* task8 */
+   /* .nav ul li{
+    margin-right: 20px;
+    
+   } */
+   /* .nav>ul>li{
+    margin-right: 20px;
+    
+   } */
+   /* .nav ul>li{
+    margin-right: 20px;
+    
+   } */
+   .nav>ul li{
+    margin-right: 20px;
+    
+   }
+
+   /* task9 */
+   /* .gallery .photo{
+    background-color: lightgray;
+   } */
+   .gallery>.photo{
+    background-color: lightgray;
+   }
+   
+   /* task10 */
+   /* .container>.footer>span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   } */
+   /* .container>.footer span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   } */
+   /* .container .footer span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   } */
+   /* .container .footer>span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   } */
+   /* .header+.footer>span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   } */
+   .header+.footer span{
+    border: 2px solid brown;
+    border-radius: 5px;
+   }
+
+
