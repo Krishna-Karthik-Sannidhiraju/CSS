@@ -1,0 +1,105 @@
+.grid-container{
+display: grid;
+grid-template-areas: 'a b b b c c'
+'d b b b c c'
+'e f g g h i'
+'j k g g l m';
+height: 100vh;
+}
+.item1{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: a;
+
+}
+.item2{
+    background-image: linear-gradient(to bottom,pink,blue);
+    
+    grid-area: b;
+}
+.item3{
+    background-image: linear-gradient(to bottom, aqua,pink);
+    grid-area: c;
+    
+}
+.item4{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: d;
+    
+}
+.item5{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: e;
+    
+}
+.item6{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: f;
+    
+}
+.item7{
+    background-image: linear-gradient(to bottom,pink,blue);
+    grid-area: g;
+    
+}
+.item8{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: h;
+    
+}
+.item9{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: i;
+    
+}
+.item10{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: j;
+    
+}
+.item11{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: k;
+    
+}
+.item12{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: l;
+    
+}
+.item13{
+    background-image: linear-gradient(to bottom, orange,pink);
+    grid-area: m;
+    
+}
+
+@media  screen and (max-width : 500px) {
+    .grid-container{
+        grid-template-areas: 'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        'g'
+        'h'
+        'i'
+        'j'
+        'k'
+        'l'
+        'm';
+        grid-template-columns:1,1fr ;
+    }
+}
+@media  screen and (min-width:700px) and (max-width : 900px) {
+    .grid-container{
+        grid-template-areas: 'a b'
+        'c d'
+        'e f'
+        'g h'
+        'i j'
+        'k l'
+        
+        ;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
