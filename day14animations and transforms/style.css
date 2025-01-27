@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center center;
+    place-content: center center;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+}
+.item{
+    
+     
+   
+    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: transforms 1.4s infinite ease-in-out;
+    
+    
+}
+.item1{
+    background-color: blue;
+    
+    
+    animation-delay: 0s;
+    
+    
+   
+
+}
+.container .item:nth-child(2){
+    background-color: red;
+    
+    animation-delay: .2s;
+   
+
+}
+.item3{
+    background-color: yellow;
+    
+    animation-delay: 0.3s;
+
+}
+.item4{
+    background-color: green;
+    animation-delay: 0.5s;
+   
+
+}
+@keyframes transforms {
+    0%,100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-22px);
+        
+    }
+    
+}
+.container1{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    gap: 7px;
+
+}
+.bar{
+    width: 40px;
+    height: 100px;
+    
+}
+.item5{
+    
+    animation:transformers1 1s ease-in-out infinite;
+    height: 100px;
+    width: 50px;
+    background-image:linear-gradient(to bottom,blue,pink);
+   
+
+    
+    
+ 
+    
+    
+   
+
+}
+.item6{
+    animation:transformers2 1s ease-in-out infinite ;
+    background-image: linear-gradient(to bottom,blueviolet,violet);
+    height: 130px;
+    
+    
+    
+   
+
+}
+.item7{
+    animation: transformers3 1s ease-in-out infinite;
+   background-color: blueviolet;
+   height: 160px;
+
+    
+   
+
+}
+.item8{
+    animation: transformers3 1s ease-in-out infinite;
+    background-image: linear-gradient(to bottom,blueviolet,violet);
+    height: 130px;
+   
+   
+
+}
+.item9{
+    background-image: linear-gradient(to bottom,blueviolet,violet);
+    
+    
+   
+
+}
+@keyframes transformers1 {
+    0%{
+        height: 0px;
+    }
+   
+    
+}
+@keyframes transformers2 {
+    0%{
+        height: 70px;
+    }
+    
+   
+    
+}
+@keyframes transformers3 {
+    0%{
+        height: 100px;
+    }
+    
+   
+    
+}
+@keyframes transformers4 {
+    0%{
+        height: 70px;
+    }
+    
+   
+    
+}
+
+
